@@ -259,6 +259,20 @@ strong {
     transition: all 0.2s ease;
 }
 
+
+.prueba img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+@supports(object-fit: cover) {
+    .prueba img {
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center center !important;
+    }
+}
+
 /***********************/
 /*    0. team    */
 /***********************/
