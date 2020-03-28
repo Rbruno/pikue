@@ -269,6 +269,15 @@ strong {
     height: auto !important;
 }
 
+.mini-foto {
+    margin-top: 11px;
+}
+
+.mini-foto img {
+    width: 100% !important;
+    height: auto !important;
+}
+
 @supports(object-fit: cover) {
     .prueba img {
         height: 100% !important;
@@ -692,7 +701,7 @@ screen and (-ms-high-contrast: none) {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #113448;
+    background: #af6337;
 }
 
 .spinner {
@@ -1845,7 +1854,8 @@ screen and (-ms-high-contrast: none) {
 /**********************/
 .footer {
     padding-top: 5rem;
-    background-color: #113448;
+    background-color: #af6337
+        /*#113448;*/
 }
 
 .footer .text-container {
@@ -1870,7 +1880,8 @@ screen and (-ms-high-contrast: none) {
 .copyright {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    background-color: #113448;
+    background-color: #af6337;
+    /*#113448;*/
     text-align: center;
 }
 
