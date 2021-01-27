@@ -7,7 +7,9 @@
 	.st1{font-family:'MicrosoftSansSerif';}
 	.st2{font-size:25.1283px;}
 	.st3{letter-spacing:4.4;}
+	.st4{fill:none;}
 </style>
 <title>logo</title>
-<text transform="matrix(1.147 0 0 1 10.4698 26.2481)" class="st0 st1 st2 st3">PIUKE</text>
+<text transform="matrix(1.1469 -1.107928e-02 9.659354e-03 1 10.5456 26.787)" class="st0 st1 st2 st3">PIUKÈ</text>
+<rect x="120.3" y="16.8" class="st4" width="2.9" height="0.5"/>
 </svg>
