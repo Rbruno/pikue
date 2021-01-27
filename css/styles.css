@@ -46,7 +46,10 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
-
+.norow{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
     @font-face {
         font-family: "LeagueSpartan-Bold";
         src: url("css/LeagueSpartan-Bold.otf");
