@@ -42,6 +42,42 @@ Colors:
 - Body text - light gray #dfe5ec
 ******************************************/
 
+/******************************/
+/*     00. Botonera    */
+/******************************/
+.img-text{
+    width: 75%;
+    float: left;
+    margin: 0 10px 0px 0px !important;
+}
+
+.img-container{
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    width: 490px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.botonera{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+       
+}
+.texto-botonera{ 
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 0 0 black;
+    z-index: 1;
+}
 
 /******************************/
 /*     01. General Styles     */
@@ -283,6 +319,7 @@ strong {
 
 .mini-foto {
     margin-top: 11px;
+    margin-bottom: 5px;
 }
 
 .mini-foto img {
